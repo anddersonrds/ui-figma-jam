@@ -26,19 +26,7 @@ const EDGE_TYPES = {
   default: DefaultEdge
 }
 
-const INITIAL_NODES = [
-  // {
-  //   id: crypto.randomUUID(),
-  //   type: 'square',
-  //   position: {
-  //     x: 200,
-  //     y: 400
-  //   },
-  //   data: {
-  //     text: ''
-  //   }
-  // }
-] as Node[]
+const INITIAL_NODES = [] as Node[]
 
 export const App = () => {
   const [edges, setEdges, onEdgesChange] = useEdgesState([])
