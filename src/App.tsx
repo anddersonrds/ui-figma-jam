@@ -27,28 +27,17 @@ const EDGE_TYPES = {
 }
 
 const INITIAL_NODES = [
-  {
-    id: crypto.randomUUID(),
-    type: 'square',
-    position: {
-      x: 200,
-      y: 400
-    },
-    data: {
-      text: ''
-    }
-  },
-  {
-    id: crypto.randomUUID(),
-    type: 'square',
-    position: {
-      x: 1000,
-      y: 400
-    },
-    data: {
-      text: ''
-    }
-  }
+  // {
+  //   id: crypto.randomUUID(),
+  //   type: 'square',
+  //   position: {
+  //     x: 200,
+  //     y: 400
+  //   },
+  //   data: {
+  //     text: ''
+  //   }
+  // }
 ] as Node[]
 
 export const App = () => {
